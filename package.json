@@ -1,0 +1,15 @@
+{
+  "name": "s8-actions-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": "git@github.com:scale8/s8-actions-playground.git",
+  "author": "Alessandro Barzanti <a.barzanti@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
