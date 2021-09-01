@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Build-And-Test:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
