@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  Build-And-Test:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -21,8 +21,5 @@ jobs:
         uses: actions/setup-node@v1
       - name: Install dependencies
         run: yarn install
-  test:
-    runs-on: ubuntu-latest
-    steps:
       - name: Run tests
         run: yarn test
