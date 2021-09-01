@@ -2,7 +2,7 @@ name: CI Test
 on:
   [ push, workflow_dispatch ]
 jobs:
-  test:
+  unit-test:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
